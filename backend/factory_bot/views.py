@@ -40,6 +40,6 @@ class TgPostView(APIView, TGBot):
 
         TGBot.bot.send_message(chat_id=tg_user.TG_user_id,
                                text=f"Hello, {tg_user.TG_username}!\n"
-                                    f"I recieved your message:\n"
+                                    f"I received your message:\n"
                                     f"{request.data['text']}")
         return Response({"ok": True})
