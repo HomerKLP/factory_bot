@@ -30,8 +30,8 @@ Sample:
 
 ![2](pics/2.PNG)
 
-![3](pics/3.jpg| width=530)
+<img src="pics/3.jpg" width="530">
 
 ![4](pics/4.PNG)
 
-![5](pics/5.jpg | width=530)
+<img src="pics/5.jpg" width="530">
